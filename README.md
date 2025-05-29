@@ -1,2 +1,3 @@
 # Haunted-House
-the complete code will available soon
+There are many initialization needed to be done so please be await 
+
