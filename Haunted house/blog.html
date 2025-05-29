@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Haunted House Explorer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/page.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="icon" href="./assets/ghost.png">
+       
+    </head>
+    <body id="main">
+
+        <audio id="background-audio" autoplay loop>
+            <source src="your-audio-file.mp3" type="audio/mpeg">
+          </audio>
+
+        <div class="cursor" style="background-image: url(./assets/ghost.png);"></div>
+        
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Haunted<span>House</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "Feedback.html" class = "nav-link">Feedback</a>
+                        </li>
+                        <!--<li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Blog</h1>
+                    <p>A haunted house offers spine-chilling thrills with eerie decor, ghostly figures, and jump scares, creating a terrifying experience that leaves visitors both frightened and exhilarated.                    </p>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- blog section -->
+        <section id = "blog" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <h2 class = "sm-title">read these blog for information</h2>
+                    <h3 class = "lg-title">recent blog</h3>
+                </div>
+
+                <div class = "blog-row">
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-1.jpg" alt = "blog">
+                            <span class = "blog-date">feb 13, 2013</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | john doe</span>
+                            <a href = "#">Cantacuzino Castle, Bușteni</a>
+                            <p class = "text">In the shadow of Cantacuzino Castle, Bușteni, whispers of a long-dead countess echo through the halls. Visitors claim to see her ghost in the mirrors, her icy breath chilling anyone who dares enter.  </p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-2.jpg" alt = "blog">
+                            <span class = "blog-date">dec 20, 2022</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Stefan Adams</span>
+                            <a href = "#">Bucharest Botanical Garden, Bucharest.</a>
+                            <p class = "text">At night, the Bucharest Botanical Garden awakens with eerie whispers. Shadows twist unnaturally among ancient trees, while a cursed gardener, lost for centuries, is said to roam, tending to forgotten, forbidden plants that thirst for blood.</p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-3.jpg" alt = "blog">
+                            <span class = "blog-date">oct 18, 2000</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Lucifer Keli</span>
+                            <a href = "#">Conacul Olga Greceanu Mansion, Bălteni</a>
+                            <p class = "text"> In the abandoned halls of Conacul Olga Greceanu Mansion, Bălteni, a ghostly painter is said to haunt her unfinished portraits. At night, whispers echo, and her spectral brush strokes appear on the walls.  </p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-4.jpg" alt = "blog">
+                            <span class = "blog-date">june 05, 2009</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Lia Sadi</span>
+                            <a href = "#">Ashford Castle, County Mayo (Republic of Ireland)</a>
+                            <p class = "text">In Ashford Castle, County Mayo, ghostly figures of a tragic love affair roam the grand halls. Their mournful cries and chilling touch haunt the night, leaving an eerie presence in the opulent rooms.</p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-5.jpg" alt = "blog">
+                            <span class = "blog-date">sept 20, 2021</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Faeng Lang</span>
+                            <a href = "#">Gara Regala, Sinaia. </a>
+                            <p class = "text">At Gara Regala, Sinaia, a long-abandoned train station, eerie train whistles echo through the night. Phantom passengers, trapped in eternal transit, appear on foggy platforms, eternally searching for a train that never arrives.</p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-6.jpg" alt = "blog">
+                            <span class = "blog-date">may 15, 2007</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Charles Bonds</span>
+                            <a href = "#">Charleville Castle, County Offaly (Republic of Ireland)</a>
+                            <p class = "text">In Charleville Castle, County Offaly, a ghostly wail echoes through the halls each night. Legend says a betrayed servant's spirit roams, seeking vengeance. Those who hear the cry never escape its haunting.</p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-7.jpg" alt = "blog">
+                            <span class = "blog-date">july 28, 2012</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Enola Holmes</span>
+                            <a href = "#">Dunluce Castle, County Antrim (Northern Ireland)</a>
+                            <p class = "text">Dunluce Castle’s ruins are haunted by the ghost of a fallen knight, eternally searching the cliffs for his lost love. His mournful wails pierce the night, sending chills to all who hear.</p>
+                        </div>
+                    </div>
+
+                    <div class = "blog-item my-2 shadow">
+                        <div class = "blog-item-top">
+                            <img src = "images/blog-8.jpg" alt = "blog">
+                            <span class = "blog-date">oct 10, 2003</span>
+                        </div>
+                        <div class = "blog-item-bottom">
+                            <span>travel | Harry Nohara</span>
+                            <a href = "#">Glendalough, County Wicklow</a>
+                            <p class = "text"> In Glendalough’s misty ruins, ancient monks' spirits roam. Locals speak of eerie chants and ghostly figures emerging from the fog, dragging the unwary into the cursed lake, never to return.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of blog section -->
+
+        <!-- footer -->
+<footer class = "py-4">
+    <div class = "container footer-row">
+        <div class = "footer-item">
+            <a href = "index.html" class = "site-brand">
+                Haunted<span>House</span>
+            </a>
+            <p class = "text">A haunted house explorer is someone who seeks out eerie, abandoned locations, uncovering hidden histories and supernatural encounters while braving dark, creepy spaces in search of adrenaline-fueled adventure.</p>
+        </div>
+
+        <div class = "subscribe-form footer-item">
+            <h2>Subscribe for more Horror Stories!</h2>
+            <form class = "flex">
+                <input type = "email" placeholder="Enter Email" class = "form-control">
+                <input type = "submit" class = "btn" value = "Subscribe">
+            </form>
+        </div>
+    </div>
+     
+</footer>
+
+
+<div class="copy"> &#9760; &copy; Tarun  &#9760<br>
+    &#9760 &copy; https://github.com/TarunDev-stack &nbsp;&#9760;</div>
+<!-- end of footer -->
+        
+    
+<style>
+    .cursor {
+        height: 50px;
+        width: 50px;
+        /*background-color: rgb(255, 255, 255);*/
+         background-size: cover;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+         position: absolute;
+        transition: all linear 0.2s;
+        overflow: hidden;
+        } 
+
+        #main{
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+           /* display:flex;*/
+            align-items: center;
+            justify-content: center;
+        }
+</style>
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            
+        </script>
+    </body>
+</html>

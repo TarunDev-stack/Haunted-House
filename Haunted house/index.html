@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAUNTED HOUSE</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/ghost.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<head>
+    <title>Autoplay on Interaction</title>
+</head>
+<body>
+    <p>Click anywhere to start audio</p>
+
+    <audio id="mySong">
+        <source src="./assets/zee_horror_show.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        document.addEventListener('click', () => {
+            document.getElementById('mySong').play();
+        }, { once: true });
+    </script>
+</body>
+<body id="main">
+  
+    <audio id="background-audio" autoplay loop>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+      </audio>
+
+    <div class="cursor" style="background-image: url(./assets/ghost.png);"></div>
+    <header>
+        <div class="hero">
+            <video autoplay loop muted plays-inline class="back-video">
+                <source src="./assets/headercovervideo.mp4" type="video/mp4">
+            </video>
+            <nav>
+                <img src="./assets/thehouseishaunted.jpg" class="logo" alt="Haunted House Logo">
+                <ul>
+                    <h2 class="darna">Darna Jaroori Hai!</h2>
+                </ul>
+            </nav>
+            <div class="content">
+                <h1>Haunted House</h1>
+                <a href="#hui">Explore</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="info" id="info">
+        <div>
+            <img src="./assets/creephousse.jpg" alt="About The House" class="about" id="creephouse">
+            <h1>About The House</h1>
+            <p> <i> In the heart of the old town stands a house shrouded in mystery and fear, its crumbling walls echoing the secrets of the past. This house, like many others deemed haunted, has a history steeped in tragedy. Over the years, strange occurrences have plagued its halls—whispers in the dead of night, unexplained footsteps, and flickering lights, all signs of restless spirits that are said to reside within. Legends claim that these houses become haunted when souls with unresolved desires or tragic ends refuse to leave. With every passing year, the ghosts grow stronger, their presence felt by those brave enough to enter. Some believe that once a house has been touched by the supernatural, it becomes a permanent home for the otherworldly, trapping both the living and the dead in an eternal dance of fear.</i>
+                
+            </p>
+        </div>
+    </section>
+
+    <section class="container" id="hui">
+        <div class="row">
+            <div class="col">
+                <h1>The Haunted House</h1>
+                <p>The haunted house, infamous for its eerie past, is a labyrinth of haunted rooms, each with its own chilling story. The attic, cluttered with forgotten relics, is where footsteps echo late into the night, though no one is there.
+                    <br> <b> <h2>Home</h2> </b>
+                   <i> Step into the unknown and experience the haunted atmosphere firsthand.</i>
+                    <br> <b> <h2>Gallery</h2> </b>
+                   <i> Explore chilling images and videos of the most haunted rooms and eerie incidents.</i>
+                    <br> <b> <h2>Blog</h2> </b>
+                   <i> Read firsthand accounts of paranormal encounters within the haunted house.</i>
+                    <br> <b> <h2>Feedback</h2> </b>
+                   <i> Share your thoughts and rate your experience exploring the haunted house website.</i>
+                </p>
+            </div>
+            <div class="col">
+                <a href="#info " class="card card1">
+                    <h2 class="none">Home</h2>
+                </a>
+                <a href="./gallery.html" class="card card2">
+                    <h2 class="none">Gallery</h2>
+                </a>
+                <a href="./blog.html" class="card card3">
+                    <h2 class="none">Blog</h2>
+                </a>
+                <a href="./Feedback.html" class="card card4">
+                    <h2 class="none">Feedback</h2>
+                </a>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section-third" id="section-third">
+        <h2>Haunted House Across India</h2>
+        <p>
+          
+Discover the most haunted houses across India, each with its own spine-chilling tales of supernatural events. From ancient mansions to abandoned bungalows, these locations are home to ghostly apparitions, eerie noises, and unexplained phenomena. Explore the dark side of India's rich history through these haunted sites, where the past refuses to rest. 
+        </p>
+        <div class="section-third-task">
+          <div class="task-1">
+            <img src="./assets/agrasenkibaoli.cms" alt="learn" />
+            <h3>Agrasen ki Baoli</h3>
+            <p>
+              <i>This ancient stepwell in Delhi is known for its eerie silence and unsettling vibes. Visitors often report feeling watched, and the deeper you go, the stronger the sense of dread becomes.</i>
+            </p>
+          </div>
+  
+          <div class="task-2">
+            <img src="./assets/bhangarhfort.jpeg" alt="time" />
+            <h3>Bhangarh Fort</h3>
+            <p>
+              <i>Located in Rajasthan, Bhangarh Fort is infamous for its haunting legends. Forbidden to enter after sunset, it is said to be cursed, with many visitors reporting ghostly encounters and strange incidents.</i>
+            </p>
+          </div>
+  
+          <div class="task-3">
+            <img src="./assets/malchamahal.avif" alt="stay" />
+            <h3>Malcha Mahal</h3>
+            <p>
+              <i>Hidden in Delhi’s dense forest, Malcha Mahal is shrouded in mystery. Known for its isolation and tragic history, it’s believed to be haunted by the spirits of the former royal residents, adding to its chilling aura.</i>
+            </p>
+          </div>
+          
+        </div>
+        <a href="./blog.html"><button class="button">More</button></a>
+      </section>
+
+
+   <footer>
+    <div class="footer-container">
+        <div>
+            <p>&copy; Tarun ☠️</p>
+            <p>&copy; https://github.com/TarunDev-stack  ☠️</p>
+        </div>
+        <div>
+            <h3>Hi</h3>
+            <h3>Don't Forget to</h3>
+            <h3>Give Your Feedback  </h3>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>    
