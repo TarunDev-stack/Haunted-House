@@ -17,20 +17,8 @@ window.onload = function() {
 
 
 
-// var mySong = document.getElementById("mySong");
-// mySong.onload = function () {
-//     mySong.play();
-// }
 
 
-// Feedback Form  \\  
-
-// let audio = new Audio(`${assets/zee_horror_show.mp3}`);
-
-
-// let audio = document.getElementById("audio-main")
-// console.log(document.getElementById("audio-main"));
-// document.addEventListener("DOMContentLoaded", ()=>{
     
     // // setTimeout( () => {  audio.play().catch (error =>{
     //     console.log(error)
