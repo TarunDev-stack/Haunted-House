@@ -20,19 +20,7 @@ window.onload = function() {
 
 
     
-    // // setTimeout( () => {  audio.play().catch (error =>{
-    //     console.log(error)
-    // }) }, 1000)
-//    let playAudio = audio.play();
-//    setTimeout( () => { playAudio}, 1000)
-    
-// } );
-
-// var x = document.getElementById("audio-main");
-
-// function playAudio() {
-//     x.play();
-// }
+ 
 
 /***************************************** GSAP ANIMATION ***************************/
 
