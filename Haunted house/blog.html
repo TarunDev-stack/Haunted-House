@@ -22,9 +22,9 @@
     </head>
     <body id="main">
 
-        <audio id="background-audio" autoplay loop>
+        <!-- <audio id="background-audio" autoplay loop>
             <source src="your-audio-file.mp3" type="audio/mpeg">
-          </audio>
+          </audio> -->
 
         <div class="cursor" style="background-image: url(./assets/ghost.png);"></div>
         
@@ -239,5 +239,19 @@
         <script>
             
         </script>
+    <body>
+    <p>Click anywhere to start audio</p>
+
+    <audio id="mySong">
+        <source src="./assets/slay-em-suspenseful-scary-52495.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+        document.addEventListener('click', () => {
+            document.getElementById('mySong').play();
+        }, { once: true });
+    </script>
+    </body>
+
     </body>
 </html>
