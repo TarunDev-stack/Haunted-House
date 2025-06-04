@@ -20,11 +20,12 @@
         <link rel="icon" href="./assets/ghost.png">
         
     </head>
+    
     <body  id="main">
 
-        <audio id="background-audio" autoplay loop>
+        <!-- <audio id="background-audio" autoplay loop>
             <source src="your-audio-file.mp3" type="audio/mpeg">
-          </audio>
+          </audio> -->
 
         <div class="cursor" style="background-image: url(./assets/ghost.png);"></div>
         <script src="./script.js"></script>
@@ -77,7 +78,9 @@
                       <li class = "nav-item">
                             <a href = "Feedback.html" class = "nav-link">Feedback</a>
                         </li>
-                        
+                        <!--<li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -176,6 +179,11 @@
      
 
 
+        
+
+        
+
+       
 
         <!-- js -->
         <script src = "js/script.js"></script>
@@ -250,6 +258,19 @@
 
 
     </body>
+<body>
+    <p>Click anywhere to start audio</p>
+
+    <audio id="mySong">
+        <source src="./assets/mixkit-terror-transition-2484.wav" type="audio/wav">
+    </audio>
+
+    <script>
+        document.addEventListener('click', () => {
+            document.getElementById('mySong').play();
+        }, { once: true });
+    </script>
+</body>
 
 
 </html>
