@@ -18,10 +18,6 @@ window.onload = function() {
 
 
 
-
-    
- 
-
 /***************************************** GSAP ANIMATION ***************************/
 
 gsap.from(".content", {
